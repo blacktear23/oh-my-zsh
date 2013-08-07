@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## History wrapper
 function omz_history {
   local clear list
@@ -37,3 +38,20 @@ setopt hist_ignore_dups       # ignore duplicated commands history list
 setopt hist_ignore_space      # ignore commands that start with space
 setopt hist_verify            # show command with history expansion to user before running it
 setopt share_history          # share command history data
+=======
+## Command history configuration
+if [ -z $HISTFILE ]; then
+    HISTFILE=$HOME/.zsh_history
+fi
+HISTSIZE=10000
+SAVEHIST=10000
+
+setopt append_history
+setopt extended_history
+setopt hist_expire_dups_first
+setopt hist_ignore_dups # ignore duplication command history list
+setopt hist_ignore_space
+setopt hist_verify
+setopt inc_append_history
+setopt no_share_history # share command history data
+>>>>>>> Remove share history
