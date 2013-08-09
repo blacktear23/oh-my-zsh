@@ -49,8 +49,6 @@ alias gremote="git remote"
 # End Git alias
 
 # File type alias
-alias -s py=mvim
-alias -s rb=mvim
 alias -s js=mvim
 alias -s css=mvim
 alias -s html=mvim
