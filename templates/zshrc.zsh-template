@@ -100,5 +100,5 @@ source $ZSH/oh-my-zsh.sh
 export LANG='zh_CN.UTF-8'
 export JAVA_HOME=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
 
-PATH=/opt/local/bin:/opt/local/sbin:/usr/local/rvm/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/rvm/bin:/Users/mac/software/bin
+PATH=/opt/local/bin:/opt/local/sbin:/usr/local/rvm/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/rvm/bin:/Users/mac/software/bin:/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin
 export PATH
