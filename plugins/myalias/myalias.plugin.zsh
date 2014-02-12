@@ -13,6 +13,7 @@ alias draft="cd ~/Documents/draft"
 alias godir="cd /opt/local/go/src/pkg"
 alias sshpub="cat ~/.ssh/id_rsa.pub"
 alias reloadzsh="source ~/.zshrc"
+alias wget="wget --no-check-certificate"
 
 # Programs
 alias djm="python manage.py"
