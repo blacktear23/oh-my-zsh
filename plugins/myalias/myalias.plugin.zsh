@@ -14,7 +14,7 @@ alias godir="cd /opt/local/go/src/pkg"
 alias sshpub="cat ~/.ssh/id_rsa.pub"
 alias reloadzsh="source ~/.zshrc"
 alias wget="wget --no-check-certificate"
-alias gopath="cd $GOPATH"
+alias gopath="cd \$GOPATH"
 
 # Programs
 alias djm="python manage.py"
