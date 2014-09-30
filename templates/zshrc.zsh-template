@@ -98,7 +98,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export LANG='zh_CN.UTF-8'
-export JAVA_HOME=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home
 
 export GOPATH=/Users/mac/goprojs
 export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/rvm/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/rvm/bin:/Users/mac/software/bin:/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin:$GOPATH/bin
