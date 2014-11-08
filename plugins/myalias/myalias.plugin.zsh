@@ -49,6 +49,7 @@ alias glg="git lg"
 alias gmerge="git merge"
 alias gdiff="git diff"
 alias gremote="git remote"
+alias gstash="git stash"
 # End Git alias
 
 # File type alias
