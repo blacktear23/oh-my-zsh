@@ -98,8 +98,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export LANG='zh_CN.UTF-8'
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home
+# export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home
 
-export GOPATH=/Users/mac/goprojs
-export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/rvm/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/rvm/bin:/Users/mac/software/bin:/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin:$GOPATH/bin
-export PATH=/usr/local/opt/gnu-tar/libexec/gnubin:$PATH
+export GOPATH=~/goprojs
+export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/rvm/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/rvm/bin:/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin:$GOPATH/bin
+export PATH=/usr/local/opt/gnu-tar/libexec/gnubin:~/software/bin:$PATH

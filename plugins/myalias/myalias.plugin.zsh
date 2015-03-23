@@ -16,6 +16,7 @@ alias reloadzsh="source ~/.zshrc"
 alias wget="wget --no-check-certificate"
 alias gopath="cd \$GOPATH"
 alias t="trans"
+alias tailf="tail -f"
 
 # Programs
 alias djm="python manage.py"
