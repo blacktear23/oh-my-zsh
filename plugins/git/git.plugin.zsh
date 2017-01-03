@@ -238,6 +238,18 @@ alias gsps='git show --pretty=short --show-signature'
 alias gsr='git svn rebase'
 alias gss='git status -s'
 alias gst='git status'
+compdef _git gss=git-status
+alias ga='git add'
+compdef _git ga=git-add
+compdef _git gm=git-merge
+alias grh='git reset HEAD'
+alias grhh='git reset HEAD --hard'
+alias gclean='git reset --hard && git clean -dfx'
+alias gwc='git whatchanged -p --abbrev-commit --pretty=medium'
+alias gf='git ls-files | grep'
+alias gpoat='git push origin --all && git push origin --tags'
+alias gmt='git mergetool --no-prompt'
+compdef _git gm=git-mergetool
 
 # use the default stash push on git 2.13 and newer
 autoload -Uz is-at-least

@@ -14,11 +14,15 @@ alias godir="cd /opt/local/go/src/pkg"
 alias sshpub="cat ~/.ssh/id_rsa.pub"
 alias reloadzsh="source ~/.zshrc"
 alias wget="wget --no-check-certificate"
-alias gopath="cd \$GOPATH"
+alias gop="cd \$GOPATH"
+alias gops="cd \$GOPATH\src"
 alias t="trans"
 alias tailf="tail -f"
+alias sshci="ssh-copy-id -i /Users/rainli/.ssh/id_rsa.pub"
+alias sshcisalt="ssh-copy-id -i /Users/rainli/.ssh/salt_id_rsa.pub"
 
 # Programs
+alias f8="flake8"
 alias djm="python manage.py"
 alias cloud="~/work/cloudcli/cloudcli"
 alias cloud2="~/software/cloudcli/cloudcli2"
@@ -34,7 +38,7 @@ alias bc="bundle check"
 
 # SSH -D
 alias hkvpn="echo Connect to HK VPN; ssh -NvD 127.0.0.1:7070 hkvpn; echo Connection closed"
-alias usvpn="echo Connect to US VPN; ssh -NvD 127.0.0.1:7070 ccvpn; echo Connection closed"
+alias usvpn="echo Connect to US VPN; ssh -NvD 127.0.0.1:7070 usvpn; echo Connection closed"
 
 # Git alias
 alias gco="git checkout"
@@ -51,6 +55,7 @@ alias gmerge="git merge"
 alias gdiff="git diff"
 alias gremote="git remote"
 alias gstash="git stash"
+alias gclone="git clone"
 # End Git alias
 
 # File type alias
