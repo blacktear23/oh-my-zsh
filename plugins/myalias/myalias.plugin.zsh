@@ -28,7 +28,8 @@ alias djm="python manage.py"
 alias cloud="~/work/cloudcli/cloudcli"
 alias cloud2="~/software/cloudcli/cloudcli2"
 alias r="rails"
-alias tar="gnutar"
+alias tar="gtar"
+alias sed="gsed"
 alias cleanssh="echo \"\" > ~/.ssh/known_hosts"
 alias ack="ag"
 
@@ -57,6 +58,8 @@ alias gdiff="git diff"
 alias gremote="git remote"
 alias gstash="git stash"
 alias gclone="git clone"
+alias grb="git rebase"
+alias grbi="git rebase -i"
 # End Git alias
 
 # File type alias
