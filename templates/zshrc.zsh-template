@@ -101,6 +101,8 @@ export LANG='zh_CN.UTF-8'
 # export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home
 
 export GOPATH=~/goprojs
-export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/rvm/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/rvm/bin:/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin:$GOPATH/bin:
+export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/rvm/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/rvm/bin:/Applications/Arduino.app/Contents/Resources/Java/hardware/tools/avr/bin:$GOPATH/bin:$HOME/.cargo/bin
 export PATH=/usr/local/opt/gnu-tar/libexec/gnubin:~/software/bin:$PATH:$GOPATH/bin
 # export HOMEBREW_GITHUB_API_TOKEN=42ac6317409299b2a1b87820d5cd819c77726b40
+export CPLUS_INCLUDE_PATH=/usr/local/include
+export LIBRARY_PATH="/usr/local/lib"
