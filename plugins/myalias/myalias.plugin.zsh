@@ -62,6 +62,7 @@ alias gstash="git stash"
 alias gclone="git clone"
 alias grb="git rebase"
 alias grbi="git rebase -i"
+alias gtag="git tag"
 # End Git alias
 
 # File type alias
