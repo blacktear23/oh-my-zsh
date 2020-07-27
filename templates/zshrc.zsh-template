@@ -106,3 +106,11 @@ export PATH=/usr/local/opt/gnu-tar/libexec/gnubin:~/software/bin:$PATH:$GOPATH/b
 # export HOMEBREW_GITHUB_API_TOKEN=42ac6317409299b2a1b87820d5cd819c77726b40
 export CPLUS_INCLUDE_PATH=/usr/local/include
 export LIBRARY_PATH="/usr/local/lib"
+
+# export PATH="/usr/local/opt/node@8/bin:$PATH"
+# export LDFLAGS="-L/usr/local/opt/node@8/lib -L/usr/local/opt/openssl@1.1/lib"
+# export CPPFLAGS="-I/usr/local/opt/node@8/include"
+export PATH="/usr/local/opt/icu4c/bin:$PATH"
+export PATH="/usr/local/opt/icu4c/sbin:$PATH"
+export GOPROXY="https://goproxy.cn,direct"
+ulimit -n 8192
